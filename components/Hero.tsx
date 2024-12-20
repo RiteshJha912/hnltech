@@ -1,6 +1,9 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import MagicButton from './ui/MagicButton'
+import { FaArrowUpRightFromSquare, FaArrowUpRightDots } from "react-icons/fa6";
+
 
 const Hero = () => {
   return (
@@ -26,9 +29,17 @@ const Hero = () => {
             words='Empowering India&apos;s Businesses with Future-Ready Solutions.'
             />
 
-            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl'>
+            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             Welcome to HNLTech - Your Partner in Software & IT Services.
             </p>
+
+            <a href="#about">
+              <MagicButton
+              title = 'Hero button'
+              icon = {<FaArrowUpRightDots/>}
+              position='right'
+              />
+            </a>
 
           </div>
         </div>
