@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "hnltech",
+  title: "HNLTech",
   description: "hnltech.in",
 };
 
