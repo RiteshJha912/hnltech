@@ -1,3 +1,4 @@
+import Grid from "@/components/Grid";
 import Hero from "@/components/Hero"
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { HiHome } from "react-icons/hi2";
@@ -10,6 +11,7 @@ export default function Home() {
           {name:'Home', link:'/', icon:<HiHome/>}
         ]}/>
         <Hero/>
+        <Grid/>
       </div>
     </main>
   );
