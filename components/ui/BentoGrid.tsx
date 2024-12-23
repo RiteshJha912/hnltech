@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Svelte", "NestJS", "Firebase"];
+  const rightLists = ["Hasura", "Kubernetes", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -68,9 +68,14 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "contact@hnltech.in";
     navigator.clipboard.writeText(text);
     setCopied(true);
+
+      // Reset the copied state after 30 seconds
+    setTimeout(() => {
+      setCopied(false);
+    }, 30000); // 30 seconds
   };
 
   return (
@@ -86,6 +91,7 @@ export const BentoGridItem = ({
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+          marginTop: '20px',
       }}
     >
       {/* add img divs */}
@@ -132,7 +138,7 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            className={`font-sans text-lg lg:text-2xl max-w-96 font-bold z-10`}
           >
             {title}
           </div>
@@ -185,7 +191,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "Email Copied!" : "Copy HNLTech's Email"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
