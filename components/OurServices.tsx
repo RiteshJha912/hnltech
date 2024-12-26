@@ -3,9 +3,9 @@
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
-const RecentProjects = () => {
+const OurServices = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20" id="services">
       <h1 className="heading">
         Transforming Ideas into Reality:{" "}
         <span className="text-blue">Our Services</span>
@@ -55,4 +55,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default OurServices;
