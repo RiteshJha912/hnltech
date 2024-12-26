@@ -98,8 +98,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Digital Marketing & Cybersecurity",
-    des: "Boost your brand’s online presence with targeted SEO and social media campaigns. Safeguard your critical business data with our comprehensive cybersecurity solutions.",
+    title: "Marketing & Cybersecurity",
+    des: "Boost your brand’s online presence with targeted Search Engine Optimization and social media campaigns. Safeguard your critical business data with our comprehensive cybersecurity solutions.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/RiteshJha912",
