@@ -71,7 +71,7 @@ export const BentoGridItem = ({
 
     setTimeout(() => {
       setCopied(false);
-    }, 30000); 
+    }, 70000); 
   };
 
   return (

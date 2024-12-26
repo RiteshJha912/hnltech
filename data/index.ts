@@ -22,10 +22,10 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-start",  // Added font size classes
+    titleClassName: "justify-start",  
     img: "",
     spareImg: "",
-    style: { fontSize: '24px' },  // Inline CSS to directly set the font size
+    style: { fontSize: '24px' }, 
 
   },
   {
@@ -74,35 +74,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Custom Software Development",
+    des: "Streamline your business processes with tailored software solutions designed to meet your unique requirements. From ERP systems to automation tools, we ensure efficiency and scalability for MSMEs and startups.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://github.com/RiteshJha912",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Web & Mobile App Development",
+    des: "Take your business online with our responsive websites and user-friendly mobile apps. We specialize in creating e-commerce platforms and industry-specific apps for education, healthcare, and logistics.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://github.com/RiteshJha912",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "IT Consulting & Cloud Solutions",
+    des: "Digitize your operations efficiently with our IT consulting services. We provide secure cloud hosting, legacy system migration, and digital transformation strategies tailored for Indian businesses.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://github.com/RiteshJha912",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Digital Marketing & Cybersecurity",
+    des: "Boost your brand’s online presence with targeted SEO and social media campaigns. Safeguard your critical business data with our comprehensive cybersecurity solutions.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/RiteshJha912",
   },
 ];
 
