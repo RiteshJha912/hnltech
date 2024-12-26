@@ -10,10 +10,10 @@ const OurServices = () => {
         Transforming Ideas into Reality:{" "}
         <span className="text-blue">Our Services</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-40 gap-y-6 mt-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[36rem] h-[30rem] flex items-center justify-center sm:w-96 w-[80vw] mb-8 sm:mb-12 lg:mb-16"
+            className="lg:min-h-[36rem] h-[30rem] flex items-center justify-center sm:w-96 w-[80vw] mb-2 sm:mb-6 lg:mb-2"
             key={item.id}
           >
             <PinContainer
