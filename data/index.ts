@@ -76,8 +76,7 @@ export const projects = [
     id: 1,
     title: "Custom Software Development",
     des: "Streamline your business processes with tailored software solutions designed to meet your unique requirements. From ERP systems to automation tools, we ensure efficiency and scalability for MSMEs and startups.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/WIN_20231111_00_11_34_Pro.jpg",
     link: "https://github.com/RiteshJha912",
   },
   {
@@ -85,7 +84,6 @@ export const projects = [
     title: "Web & Mobile App Development",
     des: "Take your business online with our responsive websites and user-friendly mobile apps. We specialize in creating e-commerce platforms and industry-specific apps for education, healthcare, and logistics.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/RiteshJha912",
   },
   {
@@ -93,7 +91,6 @@ export const projects = [
     title: "IT Consulting & Cloud Solutions",
     des: "Digitize your operations efficiently with our IT consulting services. We provide secure cloud hosting, legacy system migration, and digital transformation strategies tailored for Indian businesses.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/RiteshJha912",
   },
   {
@@ -101,7 +98,6 @@ export const projects = [
     title: "Marketing & Cybersecurity",
     des: "Boost your brand’s online presence with targeted Search Engine Optimization and social media campaigns. Safeguard your critical business data with our comprehensive cybersecurity solutions.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/RiteshJha912",
   },
 ];
