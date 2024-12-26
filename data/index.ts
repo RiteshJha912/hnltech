@@ -82,14 +82,14 @@ export const projects = [
   {
     id: 2,
     title: "Web & Mobile App Development",
-    des: "Take your business online with our responsive websites and user-friendly mobile apps. We specialize in creating e-commerce platforms and industry-specific apps for education, healthcare, and logistics.",
+    des: "Take your business online with our responsive websites and user-friendly mobile apps. We specialize in creating e-commerce platforms and industry-specific apps for education, healthcare and logistics.",
     img: "/p2.jpg",
     link: "https://github.com/RiteshJha912",
   },
   {
     id: 3,
     title: "IT Consulting & Cloud Solutions",
-    des: "Digitize your operations efficiently with our IT consulting services. We provide secure cloud hosting, legacy system migration, and digital transformation strategies tailored for Indian businesses.",
+    des: "Digitize your operations efficiently with our IT consulting services. We provide secure cloud hosting, legacy system migration and digital transformation strategies tailored for Indian businesses.",
     img: "/p3.jpg",
     link: "https://github.com/RiteshJha912",
   },
@@ -105,13 +105,13 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
