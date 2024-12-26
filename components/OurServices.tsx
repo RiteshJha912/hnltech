@@ -5,7 +5,7 @@ import { PinContainer } from "./ui/3d-pin";
 
 const OurServices = () => {
   return (
-    <div className="py-20" id="services">
+    <div className="py-20 mt-20" id="services">
       <h1 className="heading">
         Transforming Ideas into Reality:{" "}
         <span className="text-blue">Our Services</span>
