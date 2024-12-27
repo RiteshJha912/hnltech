@@ -94,12 +94,13 @@ export const projects = [
     link: "https://github.com/RiteshJha912",
   },
   {
-    id: 4,
-    title: "Marketing & Cybersecurity",
-    des: "Boost your brand’s online presence with targeted Search Engine Optimization and social media campaigns. Safeguard your critical business data with our comprehensive cybersecurity solutions.",
-    img: "/p4.jpg",
-    link: "https://github.com/RiteshJha912",
+  id: 4,
+  title: "Marketing Solutions",
+  des: "Enhance your brand’s visibility with targeted Search Engine Optimization and engaging social media campaigns. Let us help your business grow and connect with the right audience.",
+  img: "/p4.jpg",
+  link: "https://github.com/RiteshJha912",
   },
+
 ];
 
 export const testimonials = [
@@ -123,7 +124,7 @@ export const testimonials = [
   },
   {
     quote:
-      "HNLTech’s digital marketing strategies gave our retail business a big boost. They understand the Indian market and what works here. The results speak for themselves—we’ve seen significant growth thanks to their efforts.",
+      "HNLTech’s digital marketing strategies gave our retail business a big boost. They understand the Indian market and what works here. The results speak for themselves-we’ve seen significant growth thanks to their efforts.",
     name: "Priya Desai",
     title: "Marketing Head of Reliance Retail",
   },
