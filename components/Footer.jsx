@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className='w-full pb-10 mb-[100px] md:mb-5' id='contact'>
       <div className='flex flex-col items-center mb-10'>
         <h1 className='heading lg:max-w-[45vw]'>
-          Ready to take <span className='text-blue'>your</span> business to the
-          next level?
+          Ready To Take <span className='text-blue'>Your</span> Business to the
+          Next Level?
         </h1>
         <p className='text-white-200 text-center mt-6 sm:mt-8 md:mt-10'>
           Reach out to us today to explore how our tailored technology solutions
@@ -23,7 +23,7 @@ const Footer = () => {
                 type='text'
                 id='name'
                 placeholder='Name'
-                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center'
+                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center hover:bg-blue-100'
               />
             </div>
             <div className='mb-4'>
@@ -31,7 +31,7 @@ const Footer = () => {
                 type='email'
                 id='email'
                 placeholder='Email ID'
-                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center'
+                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center hover:bg-blue-100'
               />
             </div>
             <div className='mb-6'>
@@ -39,7 +39,7 @@ const Footer = () => {
                 id='message'
                 rows='4'
                 placeholder='Your Message'
-                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center'
+                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center hover:bg-blue-100'
               ></textarea>
             </div>
 
