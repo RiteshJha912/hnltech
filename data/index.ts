@@ -105,35 +105,41 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We were struggling to manage our inventory and streamline operations in our manufacturing unit until we partnered with HNLTech. They delivered a customized ERP solution that perfectly suited our needs and helped us save both time and resources. The team was incredibly professional and patient throughout the process. Working with them was a game-changer for us!",
+    name: "Ravi Kumar",
+    title: "CEO of Tata Steel Limited",
+    profileImg: "/profile1.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "HNLTech built an amazing LMS platform for us that made online teaching and learning so much easier. It’s easy to use, reliable, and has all the features we needed. Their team listened to our requirements carefully and delivered exactly what we wanted. If you’re in the education sector, I’d highly recommend them!",
+    name: "Neha Sharma",
+    title: "Director of Vedantu",
+    profileImg: "/profile2.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We needed a better way to handle appointments and patient records, and HNLTech came to the rescue. Their clinic management system has been a huge help-it’s simple to use, secure, and has saved us so much hassle. The team went above and beyond to ensure everything worked perfectly for us. They’ve been fantastic to work with!",
+    name: "Dr. Ankit Mehra",
+    title: "Chief Medical Officer at Apollo Hospitals",
+    profileImg: "/profile3.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I can’t thank HNLTech enough for the boost they gave our retail business. Their digital marketing strategies helped us get noticed by so many more customers. They really know the Indian market and what works here. The results speak for themselves-we’ve seen our business grow significantly thanks to their efforts.",
+    name: "Priya Desai",
+    title: "Marketing Head of Reliance Retail",
+    profileImg: "/profile4.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Managing deliveries used to be such a headache for us, but HNLTech’s fleet management system completely changed the game. Now we can track everything in real-time and optimize our routes. It’s made our operations so much smoother and cost-effective. They truly understand the needs of businesses like ours. Great job, HNLTech!",
+    name: "Sandeep Patel",
+    title: "COO of Blue Dart Express",
+    profileImg: "/profile5.jpg",
   },
 ];
+
 
 export const workExperience = [
   {
