@@ -1,8 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HNLTech Pvt. Ltd. 
+
+This is the official website for **HNLTech Pvt. Ltd.**, a leading software solutions provider focused on empowering Indian businesses through innovative, cost-effective and secure technology. Built with **Next.js 14** and **React.js 18**, this project showcases our services, portfolio and the core values that drive our mission to transform businesses across various industries in India.
+
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, use one of the following commands:
 
 ```bash
 npm run dev
@@ -14,23 +17,73 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page will auto-update as you modify app/page.tsx.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Dependencies
+This project uses several libraries to enhance functionality:
+
+Framer Motion: For animations and transitions.    
+Tailwind CSS: For utility-first CSS styling.   
+React Three: For rendering 3D scenes.    
+React Lottie: For Lottie animations.    
+Next Themes: For theme switching (light/dark mode).    
+
+**Install the dependencies**
+```
+npm i framer-motion clsx tailwind-merge
+npm install mini-svg-data-uri
+npm install tailwindcss-animate
+npm i next-themes
+npm install react-icons
+npm i three three-globe @react-three/fiber @react-three/drei
+npm install react-lottie
+npm i —save-dev @types/react-lottie
+```
+
+## Project Structure
+```
+roooooooot/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── provider.tsx
+├── components/
+│   ├── ui/
+│   │   ├── 3d-pin.tsx
+│   │   ├── BentoGrid.tsx
+│   │   ├── FloatingNav.tsx   
+│   │   ├── Globe.tsx
+│   │   ├── GradientBg.tsx
+│   │   ├── GridGlobe.tsx
+│   │   ├── InfiniteMovingCards.tsx
+│   │   ├── MagicButton.tsx
+│   │   ├── Spotlight.tsx
+│   │   └── TextGenerateEffect.tsx
+│   ├── Clients.tsx
+│   ├── Footer.tsx
+│   ├── Grid.tsx
+│   ├── Hero.tsx
+│   └── OurServices.tsx
+├── data/
+│   ├── confetti.json
+│   ├── globe.json
+│   └── index.ts
+├── public/
+│   └── [assets like images, logos, etc.]
+├── utils/
+│   └── cn.ts
+└── README.md    (You are reading this !)
+```
 
 ## Learn More
+For more information about Next.js and React, explore the following resources:
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)  
+- [React.js Documentation](https://reactjs.org/docs/getting-started.html)  
+- [Vercel Documentation](https://vercel.com/docs)  
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Thank you, for reading this readme !
