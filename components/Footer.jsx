@@ -17,10 +17,10 @@ const Footer = () => {
         </p>
         <a href='mailto:contact@hnltech.in'>
           <MagicButton
-            title='lets get in touch'
+            title='Grow With Us'
             icon={<FaLocationArrow />}
             position='right'
-            className="mt-6 sm:mt-8" 
+            className='mt-6 sm:mt-8'
           />
         </a>
       </div>
