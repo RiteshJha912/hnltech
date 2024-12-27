@@ -14,7 +14,6 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    profileImg: string; // Include profileImg here
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -27,7 +26,6 @@ export const InfiniteMovingCards = ({
   useEffect(() => {
     addAnimation();
   }, []);
-  
   const [start, setStart] = useState(false);
 
   function addAnimation() {
@@ -79,26 +77,27 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 w-screen overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
-          start && "animate-scroll ",
+          "flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
+          start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            key={idx}
             className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
             style={{
               background: "rgb(4,7,29)",
-              backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              backgroundColor:
+                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
             }}
+            key={idx}
           >
             <blockquote>
               <div
@@ -108,18 +107,12 @@ export const InfiniteMovingCards = ({
               <span className="relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                {/* Profile Image for each testimonial */}
-                <div className="me-3">
-                  <img src={item.profileImg} alt="profile" />
-                </div>
-                <span className="flex flex-col gap-1">
-                  <span className="text-xl font-bold leading-[1.6] text-white">
-                    {item.name}
-                  </span>
-                  <span className="text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.title}
-                  </span>
+              <div className="relative z-20 mt-6 flex flex-col">
+                <span className="text-xl font-bold leading-[1.6] text-white">
+                  {item.name}
+                </span>
+                <span className="text-sm leading-[1.6] text-white-200 font-normal">
+                  {item.title}
                 </span>
               </div>
             </blockquote>

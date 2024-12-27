@@ -103,74 +103,29 @@ export const projects = [
 ];
 
 export const testimonials = [
-  {
+ {
     quote:
-      "We were struggling to manage our inventory and streamline operations in our manufacturing unit until we partnered with HNLTech. They delivered a customized ERP solution that perfectly suited our needs and helped us save both time and resources. The team was incredibly professional and patient throughout the process. Working with them was a game-changer for us!",
+      "We were struggling to manage inventory and streamline operations until we partnered with HNLTech. Their customized ERP solution suited our needs perfectly, saving time and resources. The team’s professionalism and patience made this a game-changer for us!",
     name: "Ravi Kumar",
     title: "CEO of Tata Steel Limited",
     profileImg: "/profile1.jpg",
   },
   {
     quote:
-      "HNLTech built an amazing LMS platform for us that made online teaching and learning so much easier. It’s easy to use, reliable, and has all the features we needed. Their team listened to our requirements carefully and delivered exactly what we wanted. If you’re in the education sector, I’d highly recommend them!",
+      "HNLTech built an amazing LMS platform that made online teaching and learning much easier. It’s reliable, easy to use, and had all the features we needed. Their team delivered exactly what we wanted. Highly recommended for the education sector!",
     name: "Neha Sharma",
     title: "Director of Vedantu",
-    profileImg: "/profile2.jpg",
+    profileImg: "/vedantu.jpeg",
   },
   {
     quote:
-      "We needed a better way to handle appointments and patient records, and HNLTech came to the rescue. Their clinic management system has been a huge help-it’s simple to use, secure, and has saved us so much hassle. The team went above and beyond to ensure everything worked perfectly for us. They’ve been fantastic to work with!",
+      "We needed a better way to manage appointments and patient records, and HNLTech delivered. Their clinic management system is simple, secure, and hassle-free. The team went above and beyond to ensure everything worked perfectly for us.",
     name: "Dr. Ankit Mehra",
     title: "Chief Medical Officer at Apollo Hospitals",
-    profileImg: "/profile3.jpg",
-  },
-  {
-    quote:
-      "I can’t thank HNLTech enough for the boost they gave our retail business. Their digital marketing strategies helped us get noticed by so many more customers. They really know the Indian market and what works here. The results speak for themselves-we’ve seen our business grow significantly thanks to their efforts.",
-    name: "Priya Desai",
-    title: "Marketing Head of Reliance Retail",
-    profileImg: "/profile4.jpg",
-  },
-  {
-    quote:
-      "Managing deliveries used to be such a headache for us, but HNLTech’s fleet management system completely changed the game. Now we can track everything in real-time and optimize our routes. It’s made our operations so much smoother and cost-effective. They truly understand the needs of businesses like ours. Great job, HNLTech!",
-    name: "Sandeep Patel",
-    title: "COO of Blue Dart Express",
-    profileImg: "/profile5.jpg",
+    profileImg: "/profile.jpg",
   },
 ];
 
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
 
 export const socialMedia = [
   {
