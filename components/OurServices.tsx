@@ -6,7 +6,6 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
 const OurServices = () => {
-  // State to track visibility for each card
   const [inView, setInView] = useState<boolean[]>(new Array(projects.length).fill(false));
 
   useEffect(() => {
@@ -20,6 +19,12 @@ const OurServices = () => {
               updated[index] = true;
               return updated;
             });
+          } else {
+            setInView((prev) => {
+              const updated = [...prev];
+              updated[index] = false;
+              return updated;
+            });
           }
         },
         { threshold: 0.3 }
@@ -31,7 +36,6 @@ const OurServices = () => {
       return observer;
     });
 
-    // Cleanup observers on unmount
     return () => {
       observers.forEach((observer) => observer.disconnect());
     };
@@ -46,14 +50,14 @@ const OurServices = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-40 gap-y-6 mt-10">
         {projects.map((item, index) => (
           <motion.div
-            id={`service-${index}`} // Unique ID for each card
+            id={`service-${index}`} 
             className="lg:min-h-[36rem] h-[30rem] flex items-center justify-center sm:w-96 w-[80vw] mb-2 sm:mb-6 lg:mb-2"
             key={item.id}
-            initial={{ opacity: 0, y: 50 }} // Starting state: hidden and shifted
+            initial={{ opacity: 0, y: 50 }} 
             animate={{
               opacity: inView[index] ? 1 : 0,
               y: inView[index] ? 0 : 50,
-            }} // Slide up individually for each card
+            }} 
             transition={{ duration: 0.5 }}
           >
             <PinContainer title="Know More" href={item.link}>
