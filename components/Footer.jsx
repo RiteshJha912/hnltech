@@ -6,27 +6,58 @@ import { socialMedia } from '@/data'
 const Footer = () => {
   return (
     <footer className='w-full pt-20 pb-10' id='contact'>
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center mb-10'>
         <h1 className='heading lg:max-w-[45vw]'>
           Ready to take <span className='text-blue'>your</span> business to the
-          next level ?
+          next level?
         </h1>
-        <p className='text-white-200 md:mt-10 mt-6 sm:mt-8 my-5 text-center'>
+        <p className='text-white-200 text-center mt-6 sm:mt-8 md:mt-10'>
           Reach out to us today to explore how our tailored technology solutions
           can empower your business and drive growth.
         </p>
-        <a href='mailto:contact@hnltech.in'>
-          <MagicButton
-            title='Grow With Us'
-            icon={<BsFire />}
-            position='right'
-            className='mt-6 sm:mt-8'
-          />
-        </a>
+
+        {/* Form Section */}
+        <div className='mt-6 sm:mt-8'>
+          <form className='w-full max-w-[35rem] mx-auto p-6 bg-blue-200 bg-opacity-75 rounded-lg'>
+            <div className='mb-4'>
+              <input
+                type='text'
+                id='name'
+                placeholder='Name'
+                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center'
+              />
+            </div>
+            <div className='mb-4'>
+              <input
+                type='email'
+                id='email'
+                placeholder='Email ID'
+                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center'
+              />
+            </div>
+            <div className='mb-6'>
+              <textarea
+                id='message'
+                rows='4'
+                placeholder='Your Message'
+                className='w-full max-w-[35rem] p-3 text-sm text-white-200 bg-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-center'
+              ></textarea>
+            </div>
+
+            <div className='flex justify-center mt-4'>
+              <MagicButton
+                title='Grow With Us'
+                icon={<BsFire />}
+                position='right'
+                className='w-full'
+              />
+            </div>
+          </form>
+        </div>
       </div>
 
       <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
-        <p className='md:text-base text-sm md:font-normal font-light mt-5 sm:mt-8'>
+        <p className='md:text-base text-sm font-light mt-5 sm:mt-8'>
           Copyright © 2025 HNLTech Pvt. Ltd.
         </p>
 
