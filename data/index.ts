@@ -140,7 +140,7 @@ export const testimonials = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/git.jpg",
   },
   {
     id: 2,
