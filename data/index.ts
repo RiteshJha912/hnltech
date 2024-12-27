@@ -103,26 +103,35 @@ export const projects = [
 ];
 
 export const testimonials = [
- {
+  {
     quote:
       "We were struggling to manage inventory and streamline operations until we partnered with HNLTech. Their customized ERP solution suited our needs perfectly, saving time and resources. The team’s professionalism and patience made this a game-changer for us!",
     name: "Ravi Kumar",
     title: "CEO of Tata Steel Limited",
-    profileImg: "/profile1.jpg",
   },
   {
     quote:
-      "HNLTech built an amazing LMS platform that made online teaching and learning much easier. It’s reliable, easy to use, and had all the features we needed. Their team delivered exactly what we wanted. Highly recommended for the education sector!",
+      "HNLTech built an amazing LMS platform that made online teaching and learning much easier. It’s reliable, easy to use and had all the features we needed. Their team delivered exactly what we wanted. Highly recommended for the education sector!",
     name: "Neha Sharma",
     title: "Director of Vedantu",
-    profileImg: "/vedantu.jpeg",
   },
   {
     quote:
-      "We needed a better way to manage appointments and patient records, and HNLTech delivered. Their clinic management system is simple, secure, and hassle-free. The team went above and beyond to ensure everything worked perfectly for us.",
+      "We needed a better way to manage appointments and patient records and HNLTech delivered. Their clinic management system is simple, secure and hassle-free. The team went above and beyond to ensure everything worked perfectly for us.",
     name: "Dr. Ankit Mehra",
     title: "Chief Medical Officer at Apollo Hospitals",
-    profileImg: "/profile.jpg",
+  },
+  {
+    quote:
+      "HNLTech’s digital marketing strategies gave our retail business a big boost. They understand the Indian market and what works here. The results speak for themselves—we’ve seen significant growth thanks to their efforts.",
+    name: "Priya Desai",
+    title: "Marketing Head of Reliance Retail",
+  },
+  {
+    quote:
+      "Managing deliveries used to be a headache, but HNLTech’s fleet management system changed everything. Real-time tracking and route optimization made our operations smoother and cost-effective. They truly understand businesses like ours!",
+    name: "Sandeep Patel",
+    title: "COO of Blue Dart Express",
   },
 ];
 
