@@ -1,6 +1,6 @@
 import React from 'react'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { BsFire } from 'react-icons/bs'
 import { socialMedia } from '@/data'
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
         <a href='mailto:contact@hnltech.in'>
           <MagicButton
             title='Grow With Us'
-            icon={<FaLocationArrow />}
+            icon={<BsFire />}
             position='right'
             className='mt-6 sm:mt-8'
           />
