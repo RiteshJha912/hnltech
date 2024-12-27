@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaArrowUpRightFromSquare, FaArrowUpRightDots } from "react-icons/fa6";
+import { FaArrowUpRightDots } from "react-icons/fa6";
 
 
 const Hero = () => {
@@ -18,8 +18,8 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
         </div>
 
-        <div className='flex justify-center relative my-20 z-10'>
-          <div className='max-w-[89w] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
+        <div className='flex justify-center relative my-20 z-10 -top-20 sm:top-0'>
+          <div className='max-w-[89w] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center '>
             <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
               Empowering Innovation, <br/>Delivering Excellence
             </h2>

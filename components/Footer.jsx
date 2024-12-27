@@ -5,7 +5,7 @@ import { socialMedia } from '@/data'
 
 const Footer = () => {
   return (
-    <footer className='w-full pt-20 pb-10' id='contact'>
+    <footer className='w-full pb-10 mb-[100px] md:mb-5' id='contact'>
       <div className='flex flex-col items-center mb-10'>
         <h1 className='heading lg:max-w-[45vw]'>
           Ready to take <span className='text-blue'>your</span> business to the
@@ -16,7 +16,6 @@ const Footer = () => {
           can empower your business and drive growth.
         </p>
 
-        {/* Form Section */}
         <div className='mt-6 sm:mt-8'>
           <form className='w-full max-w-[35rem] mx-auto p-6 bg-blue-200 bg-opacity-75 rounded-lg'>
             <div className='mb-4'>
