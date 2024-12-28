@@ -23,11 +23,11 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "mt-20", 
     titleClassName: "justify-start",  
-    img: "/globe.png",
+    img: "/earthrotate-compressed.gif",
     spareImg: "",
     style: { fontSize: '24px' }, 
-
   },
+  
   {
     id: 3,
     title: "Core Technologies",
