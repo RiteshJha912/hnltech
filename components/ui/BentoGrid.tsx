@@ -8,7 +8,7 @@ import { cn } from "@/utils/cn";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import GridGlobe from "./GridGlobe";
+// import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../ui/MagicButton";
 
@@ -130,11 +130,10 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {id === 2 && (
-            <div className="hidden lg:block">
-              <GridGlobe />
-            </div>
-            )}
+          {/* {id === 2 && (
+            // <div className="hidden lg:block">
+            // </div>
+            )} */}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
