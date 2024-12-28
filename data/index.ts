@@ -21,7 +21,7 @@ export const gridItems = [
     title: "Our team excels across time zones, ensuring seamless support and execution globally.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "ml-12 mt-20 ", 
+    imgClassName: "ml-12 mt-40 ", 
     titleClassName: "justify-start",  
     img: "/earth2.gif",
     spareImg: "",
