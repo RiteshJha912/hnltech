@@ -1,6 +1,6 @@
 # HNLTech Pvt. Ltd. 
 
-This is the official website for **HNLTech Pvt. Ltd.**, a leading software solutions provider focused on empowering Indian businesses through innovative, cost-effective and secure technology. Built with **Next.js 14** and **React.js 18**, this project showcases our services, portfolio and the core values that drive our mission to transform businesses across various industries in India.
+This is the official website for **HNLTech Pvt. Ltd.**, a leading software solutions provider focused on empowering Indian businesses through innovative, cost-effective and secure technology. Built with **Next.js 14** and **React.js 18**, this project showcases the services, portfolio and the core values that drive the mission of HNLTech to transform businesses across various industries in India.
 
 
 ## Getting Started
