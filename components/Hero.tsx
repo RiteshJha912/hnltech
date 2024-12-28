@@ -25,7 +25,7 @@ const Hero = () => {
             </h2>
 
             <TextGenerateEffect
-            className="text-center text-[36px] sm:text-4xl md:text-5xl lg:text-6xl"
+            className="text-center text-[36px] sm:text-6xl md:text-6xl lg:text-6xl"
             words="Empowering India&apos;s Businesses with Future Ready Solutions"
             />
 
