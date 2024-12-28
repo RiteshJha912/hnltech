@@ -87,3 +87,4 @@ For more information about Next.js and React, explore the following resources:
 ---
 
 ### Thank you, for reading this readme !
+### Done, this is my final commit finally after 100s of final commits
