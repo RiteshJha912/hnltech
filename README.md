@@ -83,9 +83,14 @@ roooooooot/
 ## Learn More
 For more information about Next.js and React, explore the following resources:
 
+Here’s the list in the same format you provided:  
+
 - [Next.js Documentation](https://nextjs.org/docs)  
 - [React.js Documentation](https://reactjs.org/docs/getting-started.html)  
 - [Vercel Documentation](https://vercel.com/docs)  
+- [Netlify Documentation](https://docs.netlify.com/)  
+- [Framer Documentation](https://www.framer.com/docs/)  
+- [Aceternity Documentation](https://ui.aceternity.com/docs)  
 ---
 
 ### Thank you, for reading this readme !
