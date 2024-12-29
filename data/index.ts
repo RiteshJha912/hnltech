@@ -77,28 +77,28 @@ export const projects = [
     title: "Custom Software Development",
     des: "Streamline your business processes with tailored software solutions designed to meet your unique requirements. From ERP systems to automation tools, we ensure efficiency and scalability for MSMEs and startups.",
     img: "/p1.jpg",
-    link: "https://www.noxalgo.com/",
+    link: "https://github.com/RiteshJha912/hnltech",
   },
   {
     id: 2,
     title: "Web & Mobile App Development",
     des: "Take your business online with our responsive websites and user-friendly mobile apps. We specialize in creating e-commerce platforms and industry-specific apps for education, healthcare and logistics.",
     img: "/p2.jpg",
-    link: "https://www.noxalgo.com/",
+    link: "https://github.com/RiteshJha912/hnltech",
   },
   {
     id: 3,
     title: "IT Consulting & Cloud Solutions",
     des: "Digitize your operations efficiently with our IT consulting services. We provide secure cloud hosting, legacy system migration and digital transformation strategies tailored for Indian businesses.",
     img: "/p3.jpg",
-    link: "https://www.noxalgo.com/",
+    link: "https://github.com/RiteshJha912/hnltech",
   },
   {
   id: 4,
   title: "Marketing Solutions",
   des: "Enhance your brand’s visibility with targeted Search Engine Optimization and engaging social media campaigns. Let us help your business grow and connect with the right audience.",
   img: "/p4.jpg",
-  link: "https://www.socialdevs.in/",
+  link: "https://github.com/RiteshJha912/hnltech",
   },
 
 ];
