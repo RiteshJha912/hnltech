@@ -57,9 +57,7 @@ roooooooot/
 │   │   ├── 3d-pin.tsx
 │   │   ├── BentoGrid.tsx
 │   │   ├── FloatingNav.tsx   
-│   │   ├── Globe.tsx
 │   │   ├── GradientBg.tsx
-│   │   ├── GridGlobe.tsx
 │   │   ├── InfiniteMovingCards.tsx
 │   │   ├── MagicButton.tsx
 │   │   ├── Spotlight.tsx
