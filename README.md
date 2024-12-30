@@ -4,8 +4,6 @@ This is the official website for **HNLTech Pvt. Ltd.**, a leading software solut
 
 ### View Live : 
 https://hnltech.in    
-https://hnltech.netlify.app/   
-
 
 ## Getting Started
 
