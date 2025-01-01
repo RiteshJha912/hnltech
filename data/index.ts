@@ -144,7 +144,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/twit.png",
   },
   {
     id: 3,

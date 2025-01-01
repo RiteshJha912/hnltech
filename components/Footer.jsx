@@ -56,8 +56,17 @@ const Footer = () => {
       </div>
 
       <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
-        <p className='md:text-base text-sm font-light mt-5 sm:mt-8'>
-          Copyright © 2025 HNLTech Pvt. Ltd.
+        <p className='md:text-base text-sm font-light mt-5 sm:mt-8 text-center'>
+          © 2025 HNLTech Pvt. Ltd. <br />
+          Designed and Developed By{' '}
+          <a
+            href='https://noxalgo.com'
+            className='text-white hover:text-blue !important transition-colors duration-300 hover:cursor-pointer'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            NOXALGO LLP
+          </a>
         </p>
 
         <div className='flex items-center md:gap-3 gap-6'>
