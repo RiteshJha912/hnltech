@@ -2,11 +2,8 @@
 
 Welcome to the official repository of **HNLTech Pvt. Ltd.**, a leading software solutions provider committed to empowering Indian businesses. This website, crafted using **Next.js 14** and **React.js 18**, embodies HNLTech’s mission to deliver cost-effective, secure, and scalable technology to diverse industries in India.  
 
-<<<<<<< HEAD
-=======
 ## View Live : www.hnltech.in    
 
->>>>>>> c5b734eb15eec2afbc826dcb0a809a7161d17669
 
 ### View Live : www.hnltech.in  
   
