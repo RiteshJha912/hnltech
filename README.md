@@ -4,7 +4,6 @@ Welcome to the official repository of **HNLTech Pvt. Ltd.**, a leading software 
 
 ## View Live : www.hnltech.in    
   
----
 ## Getting Started
 
 To get the development server up and running, execute any of the following commands:  
