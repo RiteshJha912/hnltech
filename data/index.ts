@@ -16,18 +16,17 @@ export const gridItems = [
     img: "/aboutbg.jpg",
     spareImg: "",
   },
- {
-  id: 2,
-  title: "Our team excels across time zones, ensuring seamless support and execution globally.",
-  description: "",
-  className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-  imgClassName: "mt-20 hidden sm:block",  // Hide image on smaller screens
-  titleClassName: "justify-start",  
-  img: "/gb2.png",
-  spareImg: "",
-  style: { fontSize: '24px' }, 
-},
-
+  {
+    id: 2,
+    title: "Our team excels across time zones, ensuring seamless support and execution globally.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "mt-20 hidden sm:block",  
+    titleClassName: "justify-start",  
+    img: "/gb2.png",
+    spareImg: "",
+    style: { fontSize: '24px' }, 
+  },
   {
     id: 3,
     title: "Core Technologies",
