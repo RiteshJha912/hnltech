@@ -90,8 +90,7 @@ Dive deeper into the technologies used in this project with these resources:
 - [Aceternity Documentation](https://ui.aceternity.com/docs)  
 ---
 
-<<<<<<< HEAD
 ### Thank you for exploring this project!  If you’ve made it this far, consider starring the repository and sharing your feedback.
-=======
-### Thank you, for reading this readme !
->>>>>>> c5b734eb15eec2afbc826dcb0a809a7161d17669
+
+
+
