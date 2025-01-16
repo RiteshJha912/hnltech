@@ -90,7 +90,7 @@ Dive deeper into the technologies used in this project with these resources:
 - [Aceternity Documentation](https://ui.aceternity.com/docs)  
 ---
 
-### Thank you for exploring this project!  If you’ve made it this far, consider starring the repository and sharing your feedback.
+### Thank you for exploring this project!  
 
 
 
