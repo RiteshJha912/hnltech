@@ -34,10 +34,6 @@ To get the development server up and running, execute any of the following comma
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open http://localhost:3000 in your browser to view the application. The page will automatically refresh as you edit app/page.tsx.
