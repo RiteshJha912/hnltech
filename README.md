@@ -88,8 +88,7 @@ Dive deeper into the technologies used in this project with these resources:
 - [Aceternity Documentation](https://ui.aceternity.com/docs)  
 ---
 
-## Alternate Deployment : hnltech.netlify.app
-
+## Alternate Deployment : https://hnltech.netlify.app/
 
 ### Thank you for exploring this project!  
 Have ideas to improve this website? Let's make it even better together!         
