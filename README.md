@@ -1,26 +1,9 @@
-# HNLTech Pvt. Ltd. 
+# HNLTech 
 
-Welcome to the official repository of **HNLTech Pvt. Ltd.**, a leading software solutions provider committed to empowering Indian businesses. This website, crafted using **Next.js 14** and **React.js 18**, embodies HNLTech’s mission to deliver cost-effective, secure, and scalable technology to diverse industries in India.  
+Welcome to the official repository of **HNLTech Pvt. Ltd.**, a leading software solutions provider committed to empowering Indian businesses. This website, crafted using **Next.js 14** and **React.js 18**, embodies HNLTech’s mission to deliver cost-effective, secure and scalable technology to diverse industries in India.  
 
 ## View Live : www.hnltech.in    
-  
-## Getting Started
 
-To get the development server up and running, execute any of the following commands:  
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open http://localhost:3000 in your browser to view the application. The page will automatically refresh as you edit app/page.tsx.
-
-The page will auto-update as you modify app/page.tsx.
 
 ## Dependencies
 This project uses several libraries to enhance functionality:
@@ -42,6 +25,21 @@ npm i three three-globe @react-three/fiber @react-three/drei
 npm install react-lottie
 npm i —save-dev @types/react-lottie
 ```
+
+## Getting Started
+
+To get the development server up and running, execute any of the following commands:  
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open http://localhost:3000 in your browser to view the application. The page will automatically refresh as you edit app/page.tsx.
+
+The page will auto-update as you modify app/page.tsx.
+
 
 ## Project Structure
 ```
@@ -90,8 +88,11 @@ Dive deeper into the technologies used in this project with these resources:
 - [Aceternity Documentation](https://ui.aceternity.com/docs)  
 ---
 
-<<<<<<< HEAD
-### Thank you for exploring this project!  If you’ve made it this far, consider starring the repository and sharing your feedback.
-=======
-### Thank you, for reading this readme !
->>>>>>> c5b734eb15eec2afbc826dcb0a809a7161d17669
+## Alternate Deployment : https://hnltech.netlify.app/
+
+### Thank you for exploring this project!  
+Have ideas to improve this website? Let's make it even better together!         
+Drop me a message at **ritesh.exe@proton.me**
+
+
+
