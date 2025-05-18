@@ -60,12 +60,12 @@ const Footer = () => {
           © 2025 HNLTech Pvt. Ltd. <br />
           Designed and Developed By{' '}
           <a
-            href='https://noxalgo.com'
+            href='https://about-ritesh.netlify.app/'
             className='text-white hover:text-blue !important transition-colors duration-300 hover:cursor-pointer'
             target='_blank'
             rel='noopener noreferrer'
           >
-            NOXALGO LLP
+            Ritesh Jha
           </a>
         </p>
 
