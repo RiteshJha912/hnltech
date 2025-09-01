@@ -11,7 +11,7 @@ Framer Motion: For animations and transitions.
 Tailwind CSS: For utility-first CSS styling.   
 React Three: For rendering 3D scenes.    
 React Lottie: For Lottie animations.    
-Next Themes: For theme switching (light/dark mode).    
+
 
 **Install the dependencies**
 ```
