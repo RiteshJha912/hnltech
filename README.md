@@ -2,6 +2,7 @@
 This website, crafted using **Next.js 14** and **React.js 18**, embodies HNLTech’s mission to deliver cost-effective, secure and scalable technology to diverse industries in India.  
 
 ## View Live : www.hnltech.in    
+## Alternate Deployment : https://hnltech.netlify.app/
 
 
 ## Dependencies
@@ -87,7 +88,7 @@ Dive deeper into the technologies used in this project with these resources:
 - [Aceternity Documentation](https://ui.aceternity.com/docs)  
 ---
 
-## Alternate Deployment : https://hnltech.netlify.app/
+
 
 ### Thank you for exploring this project!  
 Have ideas to improve this website? Let's make it even better together!         
