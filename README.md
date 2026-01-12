@@ -1,5 +1,5 @@
 # HNLTech 
-This website, crafted using **Next.js 14** and **React.js 18**, embodies HNLTech’s mission to deliver cost-effective, secure and scalable technology to diverse industries in India.  
+This website, crafted using **Next.js 14** and **React.js 18**, is a landing page for legacy dev agencies.  
 
 ## View Live : www.hnltech.in (Domain now expired)
 ## Alternate Deployment : https://hnltech.netlify.app/
