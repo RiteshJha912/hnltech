@@ -90,8 +90,8 @@ Dive deeper into the technologies used in this project with these resources:
 
 
 
-### Thank you for exploring this project!  
-Have ideas to improve this website? Let's make it even better together!         
+
+Have ideas to improve this website?     
 Drop me a message at **ritesh.exe@proton.me**
 
 
