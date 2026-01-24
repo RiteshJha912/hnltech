@@ -6,7 +6,6 @@ This website, crafted using **Next.js 14** and **React.js 18**, is a landing pag
 
 
 ## Dependencies
-This project uses several libraries to enhance functionality:
 
 Framer Motion: For animations and transitions.    
 Tailwind CSS: For utility-first CSS styling.   
