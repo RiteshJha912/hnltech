@@ -1,5 +1,5 @@
 # HNLTech 
-This website, crafted using **Next.js 14** and **React.js 18**, is a landing page for legacy dev agencies.  
+This website, crafted using **Next.js 14** and **React.js**, is a landing page for legacy dev agencies.  
 
 ## View Live : www.hnltech.in (Domain has expired)
 ## Alternate Deployment : https://hnltech.netlify.app/
